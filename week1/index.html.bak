@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+	<style>
+		a{
+		  color: white;
+		  text-decoration:none;
+		 }
+		 .sidebar a{
+		   display:block;
+		 }
+	</style>
+</head>
+<body>
+    <header style="background-color:#DAF5FF">
+	 <table width="100%" border=0>
+      <tr>
+        <td width="20%" align="left">
+            <img src="https://cvr.ac.in/icrteeci/cvr.png" alt="Logo" width="80">
+        </td>
+
+        <td width="60%" align="center">
+            <h1>CVR COLLEGE OF ENGINEERING</h1>
+			<h2>Vastunagar, Mangalpalli (V), Ibrahimpatnam (M),
+Rangareddy (D), Telangana 501 510</h2>
+        </td>
+
+        <td width="20%"></td>
+     </tr>
+     </table>
+    </header>
+	<nav style="background-color:#616163">
+		<table width ="100%" border = 0>
+			<tr>
+				<td width="25%" align = "center">
+					<a href="home.html" target="content">Home</a>
+				</td>
+				<td width="25%" align = "center">
+					<a href="login.html" target="content">Login</a>
+				</td>
+				<td width="25%" align = "center">
+					<a href="register.html" target="content">Register</a>
+				</td>
+				<td width="25%" align = "center">
+					<a href="catalogue.html" target="content">Catalogue</a>
+				</td>
+			</tr>
+		</table>
+	</nav>
+	<table width = "100%" border = 0>
+		<tr>
+			<td width="20%" class="sidebar" style="background-color:#DAF5FF; color:black;">
+				<a href = "CSE.html" target="content">CSE</a>
+				<a href = "CSD.html" target="content">CSE</a>
+				<a href = "CSM.html" target="content">CSE(Ai/Ml)</a>
+				<a href = "CSC.html" target="content">CSE(CS)</a>
+			</td>
+			<td>
+				<iframe name="content"
+                    src="home.html"
+                    width="100%"
+                    height="600"
+                    frameborder="0">
+                </iframe>
+			</td>
+		</tr>
+	</table>
+	<footer>
+		<div>
+			<p>Roll Number: 24B81A6711</p>
+		</div>
+	</footer>
+</body>
+</html>
