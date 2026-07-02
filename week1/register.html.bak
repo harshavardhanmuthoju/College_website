@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Book Store</title>
+</head>
+<body>
+  <center>
+    <h2>User Registration</h2>
+    
+    <form action="#" method="POST">
+        
+        <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="rollno">Roll Number:</label>
+            <input type="text" id="rollno" name="rollno" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch">
+                <option value="CSE">CSE</option>
+                <option value="CSD">CSD</option>
+                <option value="CSM">CSE (AI/ML)</option>
+                <option value="CSC">CSE (CS)</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <br>
+
+        <div>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+    <p>Already have an account? <a href="login.html" target="content">Login here</a></p>
+  </center>
+</body>
+</html>
+ </body>
+</html>
